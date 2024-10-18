@@ -1,12 +1,53 @@
 .body {
     margin: 0;
     font-family: Raleway, sans-serif;
+    font-weight: normal;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol,
+li,
+blockquote {
+  margin: 0;
+  padding: 0;
 }
 
 .header {
-
+display: flex;
+justify-content: space-between;
+align-items: baseline;
+padding: 24px 92px;
 }
 
+.header__links-list {
+    display: flex;
+    gap: 32px;
+    list-style: none;
+}
+
+.header__links-list-item {
+    
+}
+.nav li {
+    display: inline;
+}
+
+.header_logo {
+
+}
+.lots {
+
+}
+.about {
+
+}
 .footer {
     
 }
