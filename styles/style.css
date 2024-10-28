@@ -38,8 +38,7 @@ body {
 }
 
 .header__link {
-  border-bottom: 1.4px solid black;
-  padding-bottom: 0.1px;
+  border-bottom: 1px solid black;
   text-decoration: none;
 }
 
@@ -59,12 +58,11 @@ body {
   width: 237px;
   font-size: 18px;
   font-style: normal;
-  line-height: 24.3px;
+  line-height: 24px;
 }
 
 .address__link {
-  border-bottom: 1.4px solid black;
-  padding-bottom: 0.1px;
+  border-bottom: 1px solid black;
   text-decoration: none;
 }
 
@@ -146,7 +144,7 @@ body {
   font-size: 22px;
   line-height: 2.15;
   text-transform: uppercase;
-  word-spacing: 18.8px;
+  word-spacing: 19px;
 }
 
 .bet-button {
@@ -315,7 +313,6 @@ body {
   font-weight: 400;
   font-size: 18px;
   text-align: center;
-  
 }
 
 .footer__menu-list-item {
@@ -335,7 +332,7 @@ body {
   width: 237px;
   font-size: 18px;
   font-style: normal;
-  line-height: 24.3px;
+  line-height: 24px;
 }
 
 .footer__social-list-item {
