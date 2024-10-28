@@ -12,13 +12,13 @@ body {
   display: grid;
   grid-template-columns: 1fr 148px 1fr;
   align-items: center;
-  padding: 94px 50px;
+  padding: 92px 50px;
 }
 
 .header__links-list {
   display: flex;
   flex-direction: row;
-  gap: 34px;
+  gap: 36px;
   margin-top: 4px;
   font-weight: normal;
   font-size: 18px;
@@ -58,7 +58,7 @@ body {
   width: 237px;
   font-size: 18px;
   font-style: normal;
-  line-height: 24px;
+  line-height: 1.35;
 }
 
 .address__link {
@@ -98,11 +98,13 @@ body {
 }
 
 .aligned-text {
+  line-height: 1.15;
   letter-spacing: 30px;
 }
 
 .aligned-text_center {
   line-height: 1;
+  
   letter-spacing: 30px;
   text-align: center;
 }
@@ -114,6 +116,7 @@ body {
 }
 
 .aligned-text_right-right {
+  line-height: 1;
   letter-spacing: 30px;
 }
 
@@ -142,17 +145,18 @@ body {
   color: white;
   font-weight: normal;
   font-size: 22px;
-  line-height: 2.15;
+  line-height: 2.3;
   text-transform: uppercase;
-  word-spacing: 19px;
+  word-spacing: 18px;
 }
 
 .bet-button {
   display: flex;
   border: 1px white solid;
-  padding: 12px 32px 11px 31px;
+  padding: 14px 32px;
   color: white;
   font-size: 22px;
+  line-height: 1;
   text-transform: uppercase;
   background-color: transparent;
 }
@@ -225,7 +229,7 @@ body {
   color: white;
   font-weight: normal;
   font-size: 20px;
-  line-height: 24px;
+  line-height: 1.2;
 }
 
 .card_type_film {
@@ -258,8 +262,8 @@ body {
   display: flex;
   align-items: flex-start;
   gap: 72px;
-  margin-top: 130px;
-  padding-left: 70px;
+  margin-top: 135px;
+  padding-left: 71px;
 }
 
 .about__column {
@@ -277,7 +281,7 @@ body {
 
 .about__logo {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   width: 240px;
   border-radius: 50%;
   background-color: black;
