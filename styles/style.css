@@ -18,11 +18,11 @@ body {
 .header__links-list {
   display: flex;
   flex-direction: row;
-  font-size: 18px;
-  font-weight: normal;
-  white-space: nowrap;
   gap: 34px;
   margin-top: 4px;
+  font-weight: normal;
+  font-size: 18px;
+  white-space: nowrap;
 }
 
 .header__links-list-item {
@@ -55,10 +55,10 @@ body {
 }
 
 .address {
-  font-style: normal;
   justify-self: end;
   width: 237px;
   font-size: 18px;
+  font-style: normal;
   line-height: 24.3px;
 }
 
@@ -71,20 +71,20 @@ body {
 .overlay {
   position: absolute;
   inset: 0; /* Аналог top, right, left, bottom */
+  z-index: 1;
   width: 100%;
   height: 100%;
   background: rgba(0, 0, 0, .6);
-  z-index: 1;
 }
 
 .cover {
   position: relative;
   z-index: 1;
-  background-image: url(../images/cover.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
   height: 757px;
   padding: 165px 50px 50px 50px;
+  background-image: url(../images/cover.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .cover__title {
@@ -92,11 +92,11 @@ body {
   z-index: 1;
   display: flex;
   flex-direction: column;
+  gap: 20px;
+  color: white;
   font-weight: bold;
   font-size: 100px;
-  color: white;
   text-transform: uppercase;
-  gap: 20px;
 }
 
 .aligned-text {
@@ -104,15 +104,15 @@ body {
 }
 
 .aligned-text_center {
-  text-align: center;
-  letter-spacing: 30px;
   line-height: 1;
+  letter-spacing: 30px;
+  text-align: center;
 }
 
 .aligned-text_right {
-  text-align: end;
-  letter-spacing: 30px;
   line-height: 1;
+  letter-spacing: 30px;
+  text-align: end;
 }
 
 .aligned-text_right-right {
@@ -141,22 +141,22 @@ body {
 }
 
 .cover__description-text {
-  font-size: 22px;
   color: white;
+  font-weight: normal;
+  font-size: 22px;
+  line-height: 2.15;
   text-transform: uppercase;
   word-spacing: 18.8px;
-  font-weight: normal;
-  line-height: 2.15;
 }
 
 .bet-button {
   display: flex;
   border: 1px white solid;
-  background-color: transparent;
-  color: white;
-  text-transform: uppercase;
-  font-size: 22px;
   padding: 12px 32px 11px 31px;
+  color: white;
+  font-size: 22px;
+  text-transform: uppercase;
+  background-color: transparent;
 }
 
 .bet-button:hover {
@@ -168,10 +168,10 @@ body {
 }
 
 .lots__heading {
+  margin: 0 27px 25px 40px;
   font-weight: bold;
   font-size: 40px;
   text-transform: uppercase;
-  margin: 0 27px 25px 40px;
 }
 
 .lots__card-list {
@@ -196,12 +196,12 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  height: 563px;
-  width: 334px;
   gap: 30px;
+  width: 334px;
+  height: 563px;
   padding: 50px 40px;
-  background-size: cover;
   background-repeat: no-repeat;
+  background-size: cover;
 }
 
 /*для оверлея*/
@@ -213,21 +213,21 @@ body {
 
 /*заголовки в карточках*/
 .card__title {
+  color: white;
   font-weight: bold;
   font-size: 22px;
-  color: white;
-  text-transform: uppercase;
-  text-decoration-line: underline;
   line-height: 120%;
+  text-decoration-line: underline;
+  text-transform: uppercase;
 }
 
 /*текст в карточках*/
 .card__text {
   display: block;
+  color: white;
   font-weight: normal;
   font-size: 20px;
   line-height: 24px;
-  color: white;
 }
 
 .card_type_film {
@@ -248,20 +248,20 @@ body {
 
 .lots__look-more-link {
   display: block;
+  margin-top: 30px;
+  margin-left: 40px;
   font-size: 20px;
   text-decoration-line: underline;
   text-decoration-thickness: 1px; /*отвечает за толщину линии*/
   text-underline-offset: 5px; /*отвечает за положении линии*/
-  margin-top: 30px;
-  margin-left: 40px;
 }
 
 .about {
   display: flex;
-  gap: 72px;
   align-items: flex-start;
-  padding-left: 70px;
+  gap: 72px;
   margin-top: 130px;
+  padding-left: 70px;
 }
 
 .about__column {
@@ -269,21 +269,21 @@ body {
 }
 
 .about__title {
-  font-weight: bold;
-  font-size: 40px;
-  color: black;
-  text-transform: uppercase;
   margin-top: 100px;
   margin-bottom: 100px;
+  color: black;
+  font-weight: bold;
+  font-size: 40px;
+  text-transform: uppercase;
 }
 
 .about__logo {
   display: flex;
   justify-content: space-around;
   width: 240px;
-  aspect-ratio: 1 / 1; /*отвечает за соотношение сторон*/
-  background-color: black;
   border-radius: 50%;
+  background-color: black;
+  aspect-ratio: 1 / 1; /*отвечает за соотношение сторон*/
 }
 
 .about__logo-image {
@@ -291,9 +291,9 @@ body {
 }
 
 .about__text {
+  max-width: 688px;
   font-size: 20px;
   line-height: 24px;
-  max-width: 688px;
 }
 
 .about__text p {
@@ -312,9 +312,9 @@ body {
 
 .footer__menu-list {
   display: block;
-  text-align: center;
-  font-size: 18px;
   font-weight: 400;
+  font-size: 18px;
+  text-align: center;
   
 }
 
@@ -332,9 +332,9 @@ body {
 }
 
 .footer__address {
-  font-style: normal;
   width: 237px;
   font-size: 18px;
+  font-style: normal;
   line-height: 24.3px;
 }
 
